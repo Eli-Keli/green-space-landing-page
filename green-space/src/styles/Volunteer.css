@@ -1,0 +1,59 @@
+
+
+.volunteer-container {
+    display: flex;
+    flex-direction: column;
+}
+.volunteer-container div h1, p {
+    color: #0e1b0e;
+}
+.volunteer-container div p {
+    font-size: 16px;
+    padding: 4px 16px 12px;
+}
+.volunteer-container div h2 {
+    font-size: 18px;
+    padding: 16px 16px 8px;
+    color: #0e1b0e;
+}
+.volunteer-container div button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.volunteer-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.volunteer-container form label {
+    padding: 16px 0 0;
+}
+.volunteer-container form input {
+    width: 450px;
+    padding: 16px;
+    margin: 12px 0 25px;
+    border: none;
+    background-color: #e7f3e8;
+    color: #659c6756;
+    border-radius: 10px;
+    outline-color: #00000033;
+}
+.span-div button {
+    margin-bottom: 35px;
+    margin-right: 10px;
+}
+.checkbox-div label {
+    display: flex;
+}
+.checkbox-div label p {
+    margin-top: 20px;
+}
+input[type="checkbox"] {
+    width: 16px;
+    accent-color: green;
+}
+.btn-submit {
+    padding: 10px 15px;
+}

@@ -1,0 +1,30 @@
+.events-feeback-container h2,p {
+    color: #0e1b0e;
+}
+
+.events-feeback-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.events-feeback-container form label {
+    padding: 16px 0 0;
+}
+.events-feeback-container form input,textarea {
+    width: 450px;
+    padding: 16px;
+    margin: 12px 0 15px;
+    border: none;
+    background-color: #e7f3e8;
+    color: #659c6756;
+    border-radius: 10px;
+    outline-color: #00000033;
+}
+
+.events-feeback-container form textarea {
+    height: 100px;
+}
+.btn-submit {
+    padding: 10px 15px;
+}

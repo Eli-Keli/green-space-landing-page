@@ -1,0 +1,33 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-container form {
+    display: flex;
+    flex-direction: column;
+}
+.signup-container form input {
+    width: 450px;
+    padding: 16px;
+    margin: 12px 0 15px;
+    border: none;
+    background-color: #e7f3e8;
+    color: #659c6756;
+    border-radius: 10px;
+    outline-color: #00000033;
+}
+.signup-container form label {
+    display: flex;
+    gap: 10px;
+}
+.signup-container form label input {
+    width: auto;
+}
+.signup-container form label p {
+    margin-top: 15px;
+}
+.signup-container form button {
+    width: 500px;
+}

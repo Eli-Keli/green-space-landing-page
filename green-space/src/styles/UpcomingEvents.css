@@ -1,0 +1,26 @@
+.upcoming-events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.upcoming-event {
+    display: flex;
+    gap: 60px;
+}
+
+.upcoming-event div p {
+    font-size: 14px;
+    color: #4e9750;
+}
+
+
+.upcoming-event div button {
+    background-color: #00000033;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}

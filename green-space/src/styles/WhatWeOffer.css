@@ -1,0 +1,32 @@
+section {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.what-we-offer-container {
+    margin-top: -100px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #0e1b0e;
+}   
+
+h3 {
+    color: #0e1b0e;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+p {
+    color: #4e9750;
+    font-size: 14px;
+}
+
+.flexbox {
+    display: flex;
+    gap: 40px;
+}
+.flexbox div {
+    width: 223px;
+}

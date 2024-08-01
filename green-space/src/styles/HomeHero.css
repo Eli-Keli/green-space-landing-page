@@ -1,0 +1,32 @@
+h1 {
+    font-size: 48px;
+    line-height: 0;
+}
+
+p {
+    color: #4e9750;
+    font-size: 14px;
+}
+
+.hero-container img {
+    margin-top: 23px;
+    border-radius: 10px;
+    width: 100%;
+}
+.hero-container div {
+    position: relative;
+    bottom: 200px;
+    margin-left: 34px;
+}
+.hero-container div p,h1 {
+    color: #ffffff;
+}
+.hero-container div p {
+    font-size: 16px;
+}
+.hero-container div button {
+    padding: 15px;
+}
+.hero-container div .btn-white {
+    background-color: #ffffff;
+}
