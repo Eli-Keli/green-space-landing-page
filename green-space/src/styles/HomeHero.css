@@ -19,10 +19,11 @@ p {
     margin-left: 34px;
 }
 .hero-container div p,h1 {
-    color: #ffffff;
+    color: #000;
 }
 .hero-container div p {
     font-size: 16px;
+    font-weight: 600;
 }
 .hero-container div button {
     padding: 15px;

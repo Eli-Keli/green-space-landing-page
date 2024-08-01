@@ -5,7 +5,7 @@
 }
 .upcoming-event {
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
 }
 
 .upcoming-event div p {
@@ -13,6 +13,10 @@
     color: #4e9750;
 }
 
+.event-img {
+    width: 200px;
+    height: 0;
+}
 
 .upcoming-event div button {
     background-color: #00000033;
